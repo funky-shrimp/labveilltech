@@ -10,15 +10,84 @@
       <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.154.5</generator>
-    <language>en</language>
-    <lastBuildDate>Thu, 15 Jan 2026 11:22:53 +0100</lastBuildDate>
+    <language>fr-ch</language>
+    <lastBuildDate>Mon, 19 Jan 2026 23:40:55 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Monarticle</title>
-      <link>http://localhost:1313/posts/monarticle/</link>
+      <title>CSS - Masonry bientôt intégré dans les navigateurs</title>
+      <link>http://localhost:1313/posts/css-masonry/</link>
+      <pubDate>Mon, 19 Jan 2026 23:40:55 +0100</pubDate>
+      <guid>http://localhost:1313/posts/css-masonry/</guid>
+      <description>&lt;h2 id=&#34;la-nouveauté&#34;&gt;La nouveauté&lt;/h2&gt;
+&lt;p&gt;Dans &lt;a href=&#34;https://www.smashingmagazine.com/2025/12/masonry-things-you-wont-need-library-anymore/&#34;&gt;l&amp;rsquo;article&lt;/a&gt; du 2 décembre de Smashing Magazine. Patrick Brosset nous parle de l&amp;rsquo;implémentation de Masonry en CSS.&lt;/p&gt;
+&lt;p&gt;L&amp;rsquo;idée est de ne plus dépendre de bibliothèque telle que &lt;a href=&#34;https://masonry.desandro.com/&#34;&gt;Masonry&lt;/a&gt; et de pouvoir utiliser une mise en page layout au même titre que &lt;em&gt;grid&lt;/em&gt; et &lt;em&gt;flex&lt;/em&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-css&#34; data-lang=&#34;css&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;#&lt;/span&gt;&lt;span class=&#34;nn&#34;&gt;maDiv&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;k&#34;&gt;display&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;masonry&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Pour l&amp;rsquo;instant ce n&amp;rsquo;est qu&amp;rsquo;en phase expérimentale et aucune date de sortie n&amp;rsquo;est spécifiée.
+Néanmoins on peut dors et déjà &lt;a href=&#34;https://developer.chrome.com/blog/masonry-update&#34;&gt;testé la fonctionnalité.&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>CSS - Visualiser les transitions entre les pages</title>
+      <link>http://localhost:1313/posts/view-transition/</link>
+      <pubDate>Mon, 19 Jan 2026 23:26:50 +0100</pubDate>
+      <guid>http://localhost:1313/posts/view-transition/</guid>
+      <description>&lt;h2 id=&#34;visualiser-les-transitions&#34;&gt;Visualiser les transitions&lt;/h2&gt;
+&lt;p&gt;Jusqu&amp;rsquo;à maintenant, les transitions étaient réservées que pour les SPA &lt;em&gt;(Single Page Application)&lt;/em&gt;.
+Dorénavant, les MPA &lt;em&gt;(Multiple Page Application)&lt;/em&gt; peuvent aussi en profiter.&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;GIF de la transition&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/images/LabVeillTech-view_transition.gif&#34;&gt;&lt;/p&gt;
+&lt;p&gt;En d&amp;rsquo;autres termes : On peut avoir des transitions lors de la navigation entre les pages !!!&lt;/p&gt;
+&lt;p&gt;Pour cela rien de plus simple, une ligne de CSS suffit :&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-css&#34; data-lang=&#34;css&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;@&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;view-transition&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nt&#34;&gt;navigation&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;auto&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Pour aller plus loin, &lt;a href=&#34;https://developer.mozilla.org/en-US/blog/view-transitions-beginner-guide/#going_beyond_the_default_transition&#34;&gt;l&amp;rsquo;article&lt;/a&gt; de Yash Raj Bharti nous montre comment avoir la même transition que sur le GIF ci-dessus.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>CSS - Menu sélectif customisable</title>
+      <link>http://localhost:1313/posts/custom-select/</link>
+      <pubDate>Mon, 19 Jan 2026 22:48:30 +0100</pubDate>
+      <guid>http://localhost:1313/posts/custom-select/</guid>
+      <description>&lt;h2 id=&#34;la-nouveauté&#34;&gt;La nouveauté&lt;/h2&gt;
+&lt;p&gt;Les développeurs de Chrome ont sortie leur récap&amp;rsquo; CSS 2025 le 8 décembre.
+Je tiens à me pencher sur une nouveauté très intéressante en terme de customisation, c&amp;rsquo;est la personnalisation de la balise :&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;select&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;select&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;En effet, on peut dorénavant changer son apparence comme on le souhaite.&lt;/p&gt;
+&lt;p&gt;Je recommande vivement d&amp;rsquo;expérimenté avec leur &lt;a href=&#34;https://codepen.io/web-dot-dev/pen/JoXrKoL&#34;&gt;demo codepen&lt;/a&gt; afin de comprendre les différents mécanismes.
+Pour aller plus loin, la documentation de &lt;a href=&#34;https://open-ui.org/components/customizableselect/&#34;&gt;OpenUI&lt;/a&gt; est très utile.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>À propos de moi</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Mon, 19 Jan 2026 20:56:06 +0100</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;h2 id=&#34;mon-domaine&#34;&gt;Mon domaine&lt;/h2&gt;
+&lt;p&gt;Avant de suivre un cursus Bachelor en Ingénerie des Médias, j’ai fait un CFC d’informaticien. Ce qui m’a attiré dans ce cursus est le fait que l’on reste technique tout en amenant une touche de créativité.&lt;/p&gt;
+&lt;p&gt;C’est cet élément qui me manquait, car j&amp;rsquo;éprouve une certaine satisfaction à amené un aspect créatif à mes projets.&lt;/p&gt;
+&lt;p&gt;En faisant l&amp;rsquo;exercice de l&amp;rsquo;Ikigai, j&amp;rsquo;ai pu mettre en avant mon idéal tant dans mes passions que dans l&amp;rsquo;utilité que je peux apporté dans le milieu professionnel.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Veille Technologie</title>
+      <link>http://localhost:1313/posts/veille-technologie/</link>
+      <pubDate>Mon, 19 Jan 2026 18:38:15 +0100</pubDate>
+      <guid>http://localhost:1313/posts/veille-technologie/</guid>
+      <description>&lt;h2 id=&#34;ma-philosophie-technologique&#34;&gt;Ma philosophie technologique&lt;/h2&gt;
+&lt;p&gt;J&amp;rsquo;ai une philosophie simple, d&amp;rsquo;une part parce que je suis étudiant et que je n&amp;rsquo;ai pas un Kopeck et d&amp;rsquo;une autre parce que j&amp;rsquo;aime les solutions techniques où je suis libre.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;If buying isn&amp;rsquo;t owning, piracy isn&amp;rsquo;t stealing&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Pour ma veille technologique, j&amp;rsquo;ai choisis des solutions libres et pour lesquelles je ne suis pas dépendant des géants de la tech qui revendent nos données.&lt;/p&gt;
+&lt;h2 id=&#34;système-découte&#34;&gt;Système d&amp;rsquo;écoute&lt;/h2&gt;
+&lt;p&gt;Je voulais une solution qui me permettait de sauvegarder les articles qui m&amp;rsquo;intéressaient, y avoir accès sur mes appareils et garder privées mes données. Mon oeil portait déjà sur Obsidian.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Les LLM et moi</title>
+      <link>http://localhost:1313/posts/ai/</link>
       <pubDate>Thu, 15 Jan 2026 11:22:53 +0100</pubDate>
-      <guid>http://localhost:1313/posts/monarticle/</guid>
-      <description>&lt;h1 id=&#34;test&#34;&gt;Test&lt;/h1&gt;</description>
+      <guid>http://localhost:1313/posts/ai/</guid>
+      <description>&lt;h2 id=&#34;mon-appréhension-de-lia&#34;&gt;Mon appréhension de l&amp;rsquo;IA&lt;/h2&gt;
+&lt;p&gt;J&amp;rsquo;ai commencé mon Bachelor en Ingénierie des Médias en 2023 et j&amp;rsquo;ai rapidement pris connaissance de ChatGPT grâce à mes camarades. À ce jour, je suis encore mitigé par l&amp;rsquo;utilisation que l&amp;rsquo;on fait des IA.&lt;/p&gt;
+&lt;p&gt;Pour ne pas mentir, dès le début j&amp;rsquo;étais impressionné par la technologie et ses capacités. Mais je n&amp;rsquo;ai pas pour autant pris la peine de m&amp;rsquo;y former. C&amp;rsquo;est seulement lors de ma dernière année d&amp;rsquo;étude (2025-2026) que j&amp;rsquo;ai décidé de me pencher plus en détail sur comment l&amp;rsquo;utiliser efficacement.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

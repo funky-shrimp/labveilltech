@@ -1,5 +1,6 @@
 baseURL: "https://examplesite.com/"
 title: Blog - Thibaud Nussbaumer
+languageCode: "fr-ch"
 pagination.pagerSize: 5
 theme: PaperMod
 
@@ -17,6 +18,10 @@ outputs:
     - HTML
     - RSS
     - JSON # necessary for search  
+
+caches:
+  images:
+    dir: :cacheDir/images
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
@@ -56,7 +61,7 @@ params:
     safari_pinned_tab: "<link / abs url>"
 
   label:
-    text: "Home"
+    text: "Accueil"
     icon: /apple-touch-icon.png
     iconHeight: 35
 
@@ -77,8 +82,8 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "Hi there \U0001F990"
-    Content: This blog was made for the LabVeillTech course at HEIG-VD.
+    Title: "Bienvenue \U0001F990"
+    Content: Ce blog a été créé dans le cadre du cours LabVeillTech à la HEIG-VD.
 
   socialIcons:
     - name: github
@@ -116,20 +121,12 @@ params:
 
 menu:
   main:
-    - identifier: categories
-      name: categories
-      url: /categories/
-      weight: 10
-    - identifier: tags
-      #name: tags
-      url: /tags/
-      weight: 20
-    - identifier: example
-      #name: example.org
-      url: https://example.org
-      weight: 30
+    - identifier: about
+      name: À propos
+      url: about/
+      weight: 5
     - identifier: search
-      name: search
+      name: Chercher
       url: search/
       weight: 10
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma

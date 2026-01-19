@@ -10,15 +10,44 @@
       <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.154.5</generator>
-    <language>en</language>
-    <lastBuildDate>Thu, 15 Jan 2026 11:22:53 +0100</lastBuildDate>
+    <language>fr-ch</language>
+    <lastBuildDate>Mon, 19 Jan 2026 22:48:30 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Monarticle</title>
-      <link>http://localhost:1313/posts/monarticle/</link>
+      <title>CSS Wrapped 2025 - Menu sélectif customisable</title>
+      <link>http://localhost:1313/posts/dynamic-typography/</link>
+      <pubDate>Mon, 19 Jan 2026 22:48:30 +0100</pubDate>
+      <guid>http://localhost:1313/posts/dynamic-typography/</guid>
+      <description>&lt;h2 id=&#34;la-nouveauté&#34;&gt;La nouveauté&lt;/h2&gt;
+&lt;p&gt;Les développeurs de Chrome ont sortie leur récap&amp;rsquo; CSS 2025 le 8 décembre.
+Je tiens à me pencher sur une nouveauté très intéressante en terme de customisation, c&amp;rsquo;est la personnalisation de la balise :&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;select&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;select&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;En effet, on peut dorénavant changer son apparence comme on le souhaite.&lt;/p&gt;
+&lt;p&gt;Je recommande vivement d&amp;rsquo;expérimenté avec leur &lt;a href=&#34;https://codepen.io/web-dot-dev/pen/JoXrKoL&#34;&gt;demo codepen&lt;/a&gt; afin de comprendre les différents mécanismes.
+Pour aller plus loin, la documentation de &lt;a href=&#34;https://open-ui.org/components/customizableselect/&#34;&gt;OpenUI&lt;/a&gt; est très utile.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Veille Technologie</title>
+      <link>http://localhost:1313/posts/veille-technologie/</link>
+      <pubDate>Mon, 19 Jan 2026 18:38:15 +0100</pubDate>
+      <guid>http://localhost:1313/posts/veille-technologie/</guid>
+      <description>&lt;h2 id=&#34;ma-philosophie-technologique&#34;&gt;Ma philosophie technologique&lt;/h2&gt;
+&lt;p&gt;J&amp;rsquo;ai une philosophie simple, d&amp;rsquo;une part parce que je suis étudiant et que je n&amp;rsquo;ai pas un Kopeck et d&amp;rsquo;une autre parce que j&amp;rsquo;aime les solutions techniques où je suis libre.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;If buying isn&amp;rsquo;t owning, piracy isn&amp;rsquo;t stealing&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Pour ma veille technologique, j&amp;rsquo;ai choisis des solutions libres et pour lesquelles je ne suis pas dépendant des géants de la tech qui revendent nos données.&lt;/p&gt;
+&lt;h2 id=&#34;système-découte&#34;&gt;Système d&amp;rsquo;écoute&lt;/h2&gt;
+&lt;p&gt;Je voulais une solution qui me permettait de sauvegarder les articles qui m&amp;rsquo;intéressaient, y avoir accès sur mes appareils et garder privées mes données. Mon oeil portait déjà sur Obsidian.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Les LLM et moi</title>
+      <link>http://localhost:1313/posts/ai/</link>
       <pubDate>Thu, 15 Jan 2026 11:22:53 +0100</pubDate>
-      <guid>http://localhost:1313/posts/monarticle/</guid>
-      <description>&lt;h1 id=&#34;test&#34;&gt;Test&lt;/h1&gt;</description>
+      <guid>http://localhost:1313/posts/ai/</guid>
+      <description>&lt;h2 id=&#34;mon-appréhension-de-lia&#34;&gt;Mon appréhension de l&amp;rsquo;IA&lt;/h2&gt;
+&lt;p&gt;J&amp;rsquo;ai commencé mon Bachelor en Ingénierie des Médias en 2023 et j&amp;rsquo;ai rapidement pris connaissance de ChatGPT grâce à mes camarades. À ce jour, je suis encore mitigé par l&amp;rsquo;utilisation que l&amp;rsquo;on fait des IA.&lt;/p&gt;
+&lt;p&gt;Pour ne pas mentir, dès le début j&amp;rsquo;étais impressionné par la technologie et ses capacités. Mais je n&amp;rsquo;ai pas pour autant pris la peine de m&amp;rsquo;y former. C&amp;rsquo;est seulement lors de ma dernière année d&amp;rsquo;étude (2025-2026) que j&amp;rsquo;ai décidé de me pencher plus en détail sur comment l&amp;rsquo;utiliser efficacement.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
